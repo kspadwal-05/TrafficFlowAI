@@ -1,0 +1,51 @@
+ID,Location - Street Name1,From - Street Name2,To - Street Name3,Road Classification,Status,Date Data Requested,Date Data Received,Street Operation,Volume (vpd),Posted Speed Limit (km/h),Average Speed (km/h),85th Percentile Speed (km/h),Staff Recommended2,Plan/Drawing Number,Estimated Cost,Comments,Speed Humps,Laneway Speed Bump,Ranking
+A-001,Main St,First Ave,Second Ave,Residential,Active,2025-01-15,2025-01-17,Two-way,1200,50,45,55,Install humps,PN-1001,25000,Near school,2,0,1
+A-002,Oak Ave,Second St,Third St,Collector,Pending,2025-01-16,2025-01-18,One-way,2800,40,38,47,No action,PN-2002,0,,0,1,4
+A-003,Pine St,Third Ave,Fourth Ave,Arterial,Active,2025-01-17,2025-01-19,Two-way,4500,60,55,65,Traffic calming,PN-3003,45000,High volume,0,0,2
+A-004,Elm St,Fourth St,Fifth St,Residential,Completed,2025-01-18,2025-01-20,One-way,800,30,28,35,Install bumps,PN-4004,15000,Residential area,0,3,5
+A-005,Cedar Ave,Fifth Ave,Sixth Ave,Collector,Active,2025-01-19,2025-01-21,Two-way,3200,45,42,52,Monitor,PN-5005,0,,0,0,3
+A-006,Maple St,Sixth St,Seventh St,Arterial,Active,2025-01-20,2025-01-22,Two-way,5200,65,58,68,Signal timing,PN-6006,75000,High traffic,0,0,1
+A-007,Birch St,Seventh Ave,Eighth Ave,Residential,Pending,2025-01-21,2025-01-23,One-way,1500,35,32,40,Install humps,PN-7007,20000,School zone,2,0,4
+A-008,Spruce Ave,Eighth St,Ninth St,Highway,Active,2025-01-22,2025-01-24,Two-way,6800,70,65,75,No action,PN-8008,0,,0,0,1
+A-009,Willow St,Ninth Ave,Tenth Ave,Residential,Active,2025-01-23,2025-01-25,Two-way,950,25,22,28,Install bumps,PN-9009,12000,Quiet street,0,2,6
+A-010,Ash Ave,Tenth St,Eleventh St,Collector,Active,2025-01-24,2025-01-26,One-way,2100,40,36,45,Monitor,PN-1010,0,,0,0,5
+A-011,Beech St,Eleventh Ave,Twelfth Ave,Arterial,Active,2025-01-25,2025-01-27,Two-way,3800,55,50,62,Traffic calming,PN-1111,35000,Medium volume,0,0,3
+A-012,Chestnut Ave,Twelfth St,Thirteenth St,Residential,Completed,2025-01-26,2025-01-28,One-way,1100,30,27,34,Install humps,PN-1212,18000,Residential,1,0,5
+A-013,Hickory St,Thirteenth Ave,Fourteenth Ave,Collector,Active,2025-01-27,2025-01-29,Two-way,2600,45,41,50,Monitor,PN-1313,0,,0,0,4
+A-014,Poplar Ave,Fourteenth St,Fifteenth St,Arterial,Active,2025-01-28,2025-01-30,Two-way,4100,60,54,66,Signal optimization,PN-1414,50000,High volume,0,0,2
+A-015,Sycamore St,Fifteenth Ave,Sixteenth Ave,Residential,Pending,2025-01-29,2025-01-31,One-way,1300,35,31,38,Install bumps,PN-1515,16000,School area,0,2,5
+A-016,Walnut Ave,Sixteenth St,Seventeenth St,Highway,Active,2025-01-30,2025-02-01,Two-way,7200,70,67,78,No action,PN-1616,0,,0,0,1
+A-017,Cherry St,Seventeenth Ave,Eighteenth Ave,Residential,Active,2025-01-31,2025-02-02,Two-way,1050,25,23,29,Install humps,PN-1717,14000,Quiet area,1,0,6
+A-018,Apple Ave,Eighteenth St,Nineteenth St,Collector,Active,2025-02-01,2025-02-03,One-way,2400,40,37,46,Monitor,PN-1818,0,,0,0,4
+A-019,Orange St,Nineteenth Ave,Twentieth Ave,Arterial,Active,2025-02-02,2025-02-04,Two-way,3900,55,49,61,Traffic management,PN-1919,42000,Medium traffic,0,0,3
+A-020,Lemon Ave,Twentieth St,Twenty-First St,Residential,Completed,2025-02-03,2025-02-05,One-way,1200,30,28,35,Install bumps,PN-2020,19000,Residential,0,1,5
+A-021,Peach St,Twenty-First Ave,Twenty-Second Ave,Collector,Active,2025-02-04,2025-02-06,Two-way,2700,45,42,51,Monitor,PN-2121,0,,0,0,4
+A-022,Plum Ave,Twenty-Second St,Twenty-Third St,Arterial,Active,2025-02-05,2025-02-07,Two-way,4300,60,55,67,Signal timing,PN-2222,55000,High traffic,0,0,2
+A-023,Grape St,Twenty-Third Ave,Twenty-Fourth Ave,Residential,Pending,2025-02-06,2025-02-08,One-way,1400,35,32,39,Install humps,PN-2323,17000,School zone,2,0,5
+A-024,Banana Ave,Twenty-Fourth St,Twenty-Fifth St,Highway,Active,2025-02-07,2025-02-09,Two-way,7500,70,68,79,No action,PN-2424,0,,0,0,1
+A-025,Strawberry St,Twenty-Fifth Ave,Twenty-Sixth Ave,Residential,Active,2025-02-08,2025-02-10,Two-way,1150,25,24,30,Install bumps,PN-2525,15000,Quiet street,0,1,6
+A-026,Blueberry Ave,Twenty-Sixth St,Twenty-Seventh St,Collector,Active,2025-02-09,2025-02-11,One-way,2500,40,38,47,Monitor,PN-2626,0,,0,0,4
+A-027,Raspberry St,Twenty-Seventh Ave,Twenty-Eighth Ave,Arterial,Active,2025-02-10,2025-02-12,Two-way,4000,55,50,63,Traffic calming,PN-2727,45000,Medium volume,0,0,3
+A-028,Blackberry Ave,Twenty-Eighth St,Twenty-Ninth St,Residential,Completed,2025-02-11,2025-02-13,One-way,1250,30,29,36,Install humps,PN-2828,20000,Residential,1,0,5
+A-029,Cranberry St,Twenty-Ninth Ave,Thirtieth Ave,Collector,Active,2025-02-12,2025-02-14,Two-way,2800,45,43,52,Monitor,PN-2929,0,,0,0,4
+A-030,Gooseberry Ave,Thirtieth St,Thirty-First St,Arterial,Active,2025-02-13,2025-02-15,Two-way,4400,60,56,68,Signal optimization,PN-3030,58000,High volume,0,0,2
+A-031,Elderberry St,Thirty-First Ave,Thirty-Second Ave,Residential,Pending,2025-02-14,2025-02-16,One-way,1450,35,33,40,Install bumps,PN-3131,18000,School area,0,2,5
+A-032,Mulberry Ave,Thirty-Second St,Thirty-Third St,Highway,Active,2025-02-15,2025-02-17,Two-way,7800,70,69,80,No action,PN-3232,0,,0,0,1
+A-033,Serviceberry St,Thirty-Third Ave,Thirty-Fourth Ave,Residential,Active,2025-02-16,2025-02-18,Two-way,1250,25,25,31,Install humps,PN-3333,16000,Quiet area,1,0,6
+A-034,Huckleberry Ave,Thirty-Fourth St,Thirty-Fifth St,Collector,Active,2025-02-17,2025-02-19,One-way,2600,40,39,48,Monitor,PN-3434,0,,0,0,4
+A-035,Boysenberry St,Thirty-Fifth Ave,Thirty-Sixth Ave,Arterial,Active,2025-02-18,2025-02-20,Two-way,4100,55,51,64,Traffic management,PN-3535,47000,Medium traffic,0,0,3
+A-036,Loganberry Ave,Thirty-Sixth St,Thirty-Seventh St,Residential,Completed,2025-02-19,2025-02-21,One-way,1300,30,30,37,Install bumps,PN-3636,21000,Residential,0,1,5
+A-037,Tayberry St,Thirty-Seventh Ave,Thirty-Eighth Ave,Collector,Active,2025-02-20,2025-02-22,Two-way,2900,45,44,53,Monitor,PN-3737,0,,0,0,4
+A-038,Cloudberry Ave,Thirty-Eighth St,Thirty-Ninth St,Arterial,Active,2025-02-21,2025-02-23,Two-way,4500,60,57,69,Signal timing,PN-3838,60000,High traffic,0,0,2
+A-039,Salmonberry St,Thirty-Ninth Ave,Fortieth Ave,Residential,Pending,2025-02-22,2025-02-24,One-way,1500,35,34,41,Install humps,PN-3939,19000,School zone,2,0,5
+A-040,Thimbleberry Ave,Fortieth St,Forty-First St,Highway,Active,2025-02-23,2025-02-25,Two-way,8000,70,70,81,No action,PN-4040,0,,0,0,1
+A-041,Marionberry St,Forty-First Ave,Forty-Second Ave,Residential,Active,2025-02-24,2025-02-26,Two-way,1350,25,26,32,Install bumps,PN-4141,17000,Quiet street,0,1,6
+A-042,Olallieberry Ave,Forty-Second St,Forty-Third St,Collector,Active,2025-02-25,2025-02-27,One-way,2700,40,40,49,Monitor,PN-4242,0,,0,0,4
+A-043,Youngberry St,Forty-Third Ave,Forty-Fourth Ave,Arterial,Active,2025-02-26,2025-02-28,Two-way,4200,55,52,65,Traffic calming,PN-4343,49000,Medium volume,0,0,3
+A-044,Boysenberry Ave,Forty-Fourth St,Forty-Fifth St,Residential,Completed,2025-02-27,2025-03-01,One-way,1400,30,31,38,Install humps,PN-4444,22000,Residential,1,0,5
+A-045,Marionberry St,Forty-Fifth Ave,Forty-Sixth Ave,Collector,Active,2025-02-28,2025-03-02,Two-way,3000,45,45,54,Monitor,PN-4545,0,,0,0,4
+A-046,Thornless Ave,Forty-Sixth St,Forty-Seventh St,Arterial,Active,2025-03-01,2025-03-03,Two-way,4600,60,58,70,Signal optimization,PN-4646,62000,High volume,0,0,2
+A-047,Thorny St,Forty-Seventh Ave,Forty-Eighth Ave,Residential,Pending,2025-03-02,2025-03-04,One-way,1550,35,35,42,Install bumps,PN-4747,20000,School area,0,2,5
+A-048,Smooth Ave,Forty-Eighth St,Forty-Ninth St,Highway,Active,2025-03-03,2025-03-05,Two-way,8200,70,71,82,No action,PN-4848,0,,0,0,1
+A-049,Rough St,Forty-Ninth Ave,Fiftieth Ave,Residential,Active,2025-03-04,2025-03-06,Two-way,1450,25,27,33,Install humps,PN-4949,18000,Quiet area,1,0,6
+A-050,Flat Ave,Fiftieth St,Fifty-First St,Collector,Active,2025-03-05,2025-03-07,One-way,2800,40,41,50,Monitor,PN-5050,0,,0,0,4

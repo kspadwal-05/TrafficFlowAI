@@ -1,0 +1,43 @@
+{
+  "overview": {
+    "total_locations": 5,
+    "average_volume": 2500,
+    "average_speed": 41.6,
+    "congestion_level": "0.0%",
+    "anomalies_detected": 0
+  },
+  "anomalies": [],
+  "predictions": [
+    {
+      "location": "Main St & First Ave",
+      "current_volume": 1200,
+      "predicted_volume": 864,
+      "confidence": 0.85
+    },
+    {
+      "location": "Oak Ave & Second St",
+      "current_volume": 2800,
+      "predicted_volume": 3024,
+      "confidence": 0.85
+    },
+    {
+      "location": "Pine St & Third Ave",
+      "current_volume": 4500,
+      "predicted_volume": 6075,
+      "confidence": 0.85
+    },
+    {
+      "location": "Elm St & Fourth St",
+      "current_volume": 800,
+      "predicted_volume": 576,
+      "confidence": 0.85
+    },
+    {
+      "location": "Cedar Ave & Fifth Ave",
+      "current_volume": 3200,
+      "predicted_volume": 3456,
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-10-20T19:23:07.075547"
+}
