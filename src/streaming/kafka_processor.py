@@ -3,13 +3,21 @@
 Apache Kafka Stream Processor for TrafficFlow AI
 Real-time traffic data processing with Kafka
 """
-from kafka import KafkaProducer, KafkaConsumer
-from kafka.errors import KafkaError
+try:
+    from kafka import KafkaProducer, KafkaConsumer
+    from kafka.errors import KafkaError
+except ImportError:
+    KafkaProducer = None
+    KafkaConsumer = None
+    KafkaError = Exception
 import json
 import logging
 from datetime import datetime
 from typing import Dict, Any
-import redis
+try:
+    import redis
+except ImportError:
+    redis = None
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -22,10 +30,16 @@ class KafkaStreamProcessor:
         self.bootstrap_servers = bootstrap_servers
         self.producer = None
         self.consumer = None
-        self.redis_client = redis.Redis(host='localhost', port=6379, db=0)
+        if redis:
+            self.redis_client = redis.Redis(host='localhost', port=6379, db=0)
+        else:
+            self.redis_client = None
         
     def create_producer(self):
         """Create Kafka producer"""
+        if not KafkaProducer:
+            logger.warning("Kafka not available, skipping producer creation")
+            return
         try:
             self.producer = KafkaProducer(
                 bootstrap_servers=self.bootstrap_servers,
@@ -38,6 +52,9 @@ class KafkaStreamProcessor:
             
     def create_consumer(self, topic='traffic-data'):
         """Create Kafka consumer"""
+        if not KafkaConsumer:
+            logger.warning("Kafka not available, skipping consumer creation")
+            return
         try:
             self.consumer = KafkaConsumer(
                 topic,
@@ -65,6 +82,8 @@ class KafkaStreamProcessor:
     
     def cache_metrics(self, location: str, metrics: Dict[str, Any]):
         """Cache metrics in Redis"""
+        if not self.redis_client:
+            return
         try:
             key = f"traffic_metrics:{location}"
             self.redis_client.setex(key, 300, json.dumps(metrics))  # 5 minute TTL
@@ -74,6 +93,8 @@ class KafkaStreamProcessor:
     
     def get_cached_metrics(self, location: str) -> Dict[str, Any]:
         """Get cached metrics from Redis"""
+        if not self.redis_client:
+            return {}
         try:
             key = f"traffic_metrics:{location}"
             data = self.redis_client.get(key)

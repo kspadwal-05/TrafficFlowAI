@@ -8,8 +8,15 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
-import xgboost as xgb
-import lightgbm as lgb
+try:
+    import xgboost as xgb
+except ImportError:
+    xgb = None
+
+try:
+    import lightgbm as lgb
+except ImportError:
+    lgb = None
 import joblib
 import logging
 from typing import Dict, Any, Tuple
@@ -45,6 +52,9 @@ class TrafficPredictor:
     
     def train_xgboost(self, X_train: pd.DataFrame, y_train: pd.Series) -> None:
         """Train XGBoost model"""
+        if not xgb:
+            logger.warning("XGBoost not available, skipping training")
+            return
         try:
             self.xgb_model = xgb.XGBRegressor(
                 n_estimators=100,
@@ -59,6 +69,9 @@ class TrafficPredictor:
     
     def train_lightgbm(self, X_train: pd.DataFrame, y_train: pd.Series) -> None:
         """Train LightGBM model"""
+        if not lgb:
+            logger.warning("LightGBM not available, skipping training")
+            return
         try:
             self.lgb_model = lgb.LGBMRegressor(
                 n_estimators=100,
