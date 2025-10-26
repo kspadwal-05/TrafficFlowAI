@@ -165,17 +165,6 @@ GRAFANA_PASSWORD=admin123
 - `GET /api/v1/analytics/dashboard` - Dashboard data
 - `GET /api/v1/models/performance` - ML model metrics
 
-## 🏆 Resume Highlights
-
-This project demonstrates advanced skills in:
-
-- **Machine Learning**: XGBoost, LightGBM, feature engineering, model evaluation
-- **Real-time Systems**: Apache Kafka, Redis, WebSocket streaming
-- **Data Engineering**: ETL pipelines, data quality, performance optimization
-- **Cloud Architecture**: Docker, microservices, auto-scaling, monitoring
-- **Full-stack Development**: FastAPI, Streamlit, interactive dashboards
-- **DevOps**: CI/CD, monitoring, alerting, containerization
-
 ## 📚 Technical Deep Dive
 
 ### **Data Flow**
